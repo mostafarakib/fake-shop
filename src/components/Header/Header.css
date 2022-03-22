@@ -1,0 +1,25 @@
+.carousel-container {
+  height: 93vh;
+  width: 100vw;
+}
+.carousel-img {
+  height: 93vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.tagline-box {
+  top: 30%;
+  left: -600px;
+}
+.tagline-box-2 {
+  top: 30%;
+  right: -600px;
+}
+.tagline {
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+.tagline-box p {
+  font-size: 20px;
+}

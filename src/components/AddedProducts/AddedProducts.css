@@ -1,0 +1,9 @@
+.added-products {
+  border-right: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  margin-right: 5px;
+}
+
+.added-products-details {
+  width: 100%;
+}

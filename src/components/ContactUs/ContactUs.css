@@ -1,0 +1,60 @@
+.cantact-container h1 {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(233, 233, 233);
+}
+.contact-container p {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Roboto Mono", monospace;
+  color: rgb(218, 216, 216);
+}
+.under-line {
+  margin: 10px auto;
+  height: 4px;
+  width: 140px;
+  background-color: rgb(185, 185, 185);
+}
+.main-form {
+  max-width: 600px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 10px;
+}
+.contact-us {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 20px 0;
+  border: 0;
+  background: #111;
+  padding: 20px 40px;
+  outline: none;
+  color: #ddd;
+  transition: 0.5s;
+}
+.contact-us:focus {
+  box-shadow: 0 0 10px 4px rgb(185, 185, 185);
+  border-color: rgb(185, 185, 185);
+}
+textarea.contact-us {
+  resize: none;
+  height: 100px;
+}
+#send-btn {
+  margin-top: 0;
+  width: 110px;
+  text-align: center;
+  float: right;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  text-transform: 0.5s;
+}
+#send-btn:hover {
+  border-color: rgb(185, 185, 185);
+  box-shadow: 0 0 10px 4px rgb(185, 185, 185);
+  color: rgb(185, 185, 185);
+}

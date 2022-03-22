@@ -1,0 +1,17 @@
+.card-container {
+  min-height: 510px;
+  transition: transform 0.2s;
+}
+.card-container:hover {
+  transform: scale(1.05);
+}
+.fa-star {
+  color: goldenrod;
+}
+.btn-container {
+  display: flex;
+  justify-content: space-around;
+}
+.card-body p {
+  margin-bottom: 3px;
+}
