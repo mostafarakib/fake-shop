@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Form, FormControl, Button, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import useProducts from "../../hooks/useProducts";
 import Products from "../Products/Products";
 import "./Shop.css";
@@ -25,7 +26,12 @@ const Shop = () => {
   };
 
   return (
-    <div>
+    <div className="shop-container">
+      <div className="cart-img-container">
+        <Link to="/cart">
+          <img className="cart-img" src="cart.png" alt="cart" />
+        </Link>
+      </div>
       <div>
         <Form className="d-flex mt-4 justify-content-center">
           <FormControl

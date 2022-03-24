@@ -1,0 +1,12 @@
+.shop-container {
+  position: relative;
+}
+.cart-img {
+  width: 100px;
+  height: 100px;
+  opacity: 0.5;
+
+  position: fixed;
+  top: 50%;
+  right: 0;
+}

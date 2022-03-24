@@ -29,21 +29,20 @@ const NavigationBar = (props) => {
             <Nav.Link as={Link} to="/cart">
               Review Items
             </Nav.Link>
-            <NavDropdown title="More" id="collasible-nav-dropdown">
+            <NavDropdown title="Category" id="collasible-nav-dropdown">
               <NavDropdown.Item as={Link} to="/laptop">
                 Laptop
               </NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/camera">
                 Camera
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/aboutUs">
-                About Us
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item as={Link} to="/contactUs">
-                Contact Us
-              </NavDropdown.Item>
             </NavDropdown>
+            <Nav.Link as={Link} to="/aboutUs">
+              About
+            </Nav.Link>
+            <Nav.Link as={Link} to="/contactUs">
+              Contact
+            </Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link as={Link} to="/cart">
